@@ -52,4 +52,4 @@ client.connect(err => {
 });
 
 
-app.listen(port,console.log('listening port'))
+app.listen(process.env.PORT || port)
